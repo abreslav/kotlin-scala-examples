@@ -1,0 +1,140 @@
+
+
+   Project Kotlin
+
+
+* Design Started in 2010 by JetBrains
+
+* Open-Sourced in 2012
+
+* Current state: M1 out, M2 approaching
+
+* Plans
+    - Stable beta in a few months
+    - Extensive use in production at JetBrains
+    - Spec & 1.0 Release
+
+
+
+
+
+
+
+
+
+
+
+    Design Goals
+
+
+* 100% Java compatibility
+
+* Static type safety
+
+* Fast compilation & Execution
+
+* Good tooling support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Environment
+
+
+* Compiler
+    - JVM byte code
+    - JavaScript (not GWT)
+
+* KDoc tool
+
+* IDE
+    - IntelliJ IDEA plugin
+    - Web-based mini-IDE
+
+* Minimal Standard Library
+
+* Ant/Maven support
+
+
+
+
+
+
+
+
+
+
+
+    Outline
+
+* Hidden Agenda
+
+* Kotlin Basics
+
+* Problems and Solutions
+    - Case Analysis
+    - Extending Existing APIs (and making DSLs)
+    - Handling Absent Values
+    - Multiple Implementation Inheritance
+    - Variance of Generic Types
+    - DSLs
+
+* No Summary
+
+
+
+
+
+
+
+
+
+
+    Hidden Agenda
+
+
+* Era of New Industrial Languages
+    - Ceylon    Red Hat / JBoss  (April 2011)
+    - Scala     Typesafe         (May 2011)
+    - Kotlin    JetBrains        (July 2011)
+    - xTend     Eclipse / itemis (November 2011)
+
+* Why?
+    - Houston, we have a problem!
+    - Solutions are coming...
+    - And still: Why?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
