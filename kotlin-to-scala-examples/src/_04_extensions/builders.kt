@@ -71,19 +71,19 @@ fun renderChildren(f : File) : String {
         table {
             tr {
                 td {
-                    bold(f.getCanonicalFile()?.getName())
+                    bold(f.getCanonicalFile().getName())
                 }
                 td {
                     text("# children")
                 }
             }
-            for (child in f.listFiles()!! filter {it!!.isDirectory()}) {
+            for (child in f.listFiles()!! filter {f -> f.isDirectory()}) {
                 tr {
                     td(align = "right") {
-                        text(child!!.getName())
+                        text(child.getName())
                     }
                     td {
-                        text(child!!.listFiles()?.size)
+                        text(child.listFiles()?.size)
                     }
                 }
             }
