@@ -8,16 +8,16 @@ fun main(args : Array<String>) {
 
     // Nullable vs @NotNull
     val string = container.getT()
-    println(string.charAt(0))
+//    println(string.charAt(0))
 
 
     // @NotNull parameters
 //    container.setT(null)
-    println(container.getT().charAt(0))
+//    println(container.getT().charAt(0))
 
     // @NotNull and generics
     val client = ContainerClient()
-    client.setContainer(container)
+//    client.setContainer(container)
 //    client.setContainer(container as Container<String?>)
 }
 
